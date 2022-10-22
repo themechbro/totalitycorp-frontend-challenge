@@ -1,0 +1,100 @@
+footer{
+    width: 100%;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  background-color: #fff;
+
+}.footer1-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+.footer1-flex-content>.list>p>a{
+    color: rgb(198, 206, 212);
+    text-decoration: none;
+    letter-spacing: 0.9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}.footer1-flex-content>.list>p>a:hover{
+    color: rgb(0, 0, 0.87);
+    transition: color 0.5s ease;
+}.footer1-flex-content>.header>h6{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding-bottom: 2%;
+}footer>hr{
+border: solid 1px grey;
+width: 80%;
+margin: auto;
+}.footer2-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}.footer2-flex>.footer2-flex-content{
+    margin: 2% 1%;
+}.footer2-flex>.footer2-flex-content>i:hover{
+    transform: scale(1.2);
+    color: rgb(194, 207, 218);
+    transition: all 0.5s;
+    cursor: pointer;
+}.footer2-flex>.footer2-flex-content>i{
+    font-size: 2rem;
+}.footer3-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}.footer3-flex-content{
+    margin: 1% 1%;
+}.footer3-flex-content>a{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 0 0.3%;
+    font-size: 1rem;
+}.footer3-flex-content{
+    border-right: 1px solid black;
+}
+.footer3-flex-content>a:hover{
+    text-decoration: underline;
+    color: #000;
+    transition: all 0.3s ease-in;
+}.footer4-flex{
+    padding: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+/*Media Queries*/
+@media(max-width:768px){
+    .footer1-flex{
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;   
+    }
+    .footer1-flex-content{
+        margin-top: 1%;
+    }
+    footer>hr{
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .footer2-flex-content>i{
+   font-size: 1rem;
+    }
+    .footer3-flex{
+        display: flex;
+        flex-direction: column;
+    }.footer3-flex-content{
+        border: none;
+    }
+}
+
+@media (max-width:992px){
+    footer{
+        max-width: 100%;
+    }
+}
